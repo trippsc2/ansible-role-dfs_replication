@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  author: Jim Tarpley
+  namespace: trippsc2
+  role_name: dfs_replication
+  description: This role configures DFS Replication on a Windows Server machine.
+
+  license: MIT
+
+  min_ansible_version: '2.11'
+
+  platforms:
+    - name: Windows
+      versions:
+        - '2019'
+        - '2022'
+
+collections:
+  - ansible.windows
+  - community.windows
+
+dependencies: []
