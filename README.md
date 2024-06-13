@@ -1,13 +1,13 @@
 <!-- BEGIN_ANSIBLE_DOCS -->
 
-# Ansible Role: trippsc2.dfs_replication
-This role configures DFS Replication on a Windows Server machine.
+# Ansible Role: ansible-role-dfs_replication
+DEPRECATED: Use trippsc2.dfs.replication instead.
 
 ## Requirements
 
 | Platform | Versions |
 | -------- | -------- |
-| Windows | 2019, 2022 |
+| Windows | <ul><li>2019</li><li>2022</li></ul> |
 
 ## Dependencies
 
